@@ -355,3 +355,98 @@ iframe {
         padding-bottom: 25px;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .contador, .sobre, .local, .footer {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding: 60px 15px;
+    }
+
+    .contador {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .contador__contagem .data {
+        width: auto;
+        height: auto;
+        font-size: 48px;
+        padding: 5px;
+    }
+
+    .contador__contagem .data p {
+        font-size: 18px;
+    }
+
+    .contador__contagem .data .dias, .horas, .minutos, .segundos {
+        padding: 8px 10px;
+        margin: 0;
+    }
+
+    .contador__barra {
+        text-align: center;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .contador__barra button {
+        width: 100%;
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    .contador h1 {
+        font-size: 36px;
+        margin-bottom: -10px;
+    }
+
+    .contador__barra__localizacao, .contador__barra__data {
+        padding-bottom: 8px;
+    }
+
+    .contador__titulo {
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+
+    .sobre img {
+        width: 100%;
+    }
+
+    .sobre h2 {
+        font-size: 26px;
+    }
+
+    .sobre p {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+
+    .local h2 {
+        font-size: 26px;
+    }
+
+    .local p {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .footer__container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
